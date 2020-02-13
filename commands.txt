@@ -1,0 +1,4 @@
+catnip project
+docker build -t alexanderbdewhirst/catnip .
+docker run -p 8888:5000 alexanderbdewhirst/catnip
+docker push alexanderbdewhirst/catnip
